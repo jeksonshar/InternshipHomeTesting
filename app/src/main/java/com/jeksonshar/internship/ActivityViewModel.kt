@@ -23,7 +23,7 @@ class ActivityViewModel(
         dataStore.saveCheckBox1(checkBox1.value!!)  // !! можно т.к. присваиваем false при null в getCheckbox()
     }
 
-    fun saveCheckbox2() = viewModelScope.launch {
+    fun saveCheckbox2() = viewModelScope.launch {   // !! можно т.к. присваиваем false при null в getCheckbox()
         dataStore.saveCheckBox2(checkBox2.value!!)
     }
 
