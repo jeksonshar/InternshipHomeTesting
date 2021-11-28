@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // test
+
     override fun finish() {
         super.finish()
         viewModel.onSinging()
