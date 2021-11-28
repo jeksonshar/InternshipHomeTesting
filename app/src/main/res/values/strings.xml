@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Internship</string>
+    <string name="clear">Clear</string>
+    <string name="first">First enter</string>
+    <string name="notFirst">Not first enter</string>
+
+</resources>
